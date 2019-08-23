@@ -109,3 +109,5 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+lisa meyer - 02:00AM - 5AM Central time
