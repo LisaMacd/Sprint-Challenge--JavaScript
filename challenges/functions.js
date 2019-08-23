@@ -31,9 +31,9 @@ function greeting(firstName, lastName) {
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
@@ -42,6 +42,11 @@ function greeting(firstName, lastName) {
 
 // Explanation: 
 
+myFunction() creates a local variable called internal and a function called nestedFunction(). 
+The nestedFunction() function is an inner function that is defined inside myFunction() and is 
+only available within the body of the myFunction() function. 
+Since inner functions have access to the variables of outer functions, 
+myFunction() can access the variable internal declared in the parent function, myFunction(). 
 
 const external = "I'm outside the function";
 
