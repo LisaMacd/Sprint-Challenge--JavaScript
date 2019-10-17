@@ -30,13 +30,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach:
+The forEach() method  executes a provided function once for each array element. If you just want to repeat over the items in an array and do something with the items you need to use forEach
+
+.map:
+The .map transforms each of the items in the array and returns a new array of transformed items with same size as that of old array.
+
 2. What is the difference between a function and a method?
+
+
+In JavaScript a a method is a function that belongs to an object.
+Everything in JavaScript is an object; a function is an object; an Array is an object. 
+
 
 3. What is closure?
 
+A closure is the combination of a function enclosed with references to its surrounding state. In other words, a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
 4. Describe the four rules of the 'this' keyword.
 
+One can figure out the value of “this” by following these simple rules:
+By default, “this” refers to global object which is global in case of NodeJS and window object in case of browser
+When a method is called as a property of object, then “this” refers to the parent object
+When a function is called with “new” operator then “this” refers to the newly created instance.
+When a function is called using call and apply method then “this” refers to the value passed as first argument of call or apply method.
+
 5. Why do we need super() in an extended class?
+
+The super keyword is used to access and call functions on an object's parent.
+
+The super.prop and super expressions are valid in any method definition in both classes and object literals.
+When used in a constructor, the super keyword appears alone and must be used before the this keyword is used. The super keyword can also be used to call functions on a parent object.
 
 ## Project Set up
 
@@ -85,3 +109,5 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+lisa meyer - 02:00AM - 5:00AM Central time
